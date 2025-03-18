@@ -266,8 +266,8 @@ footer {
 
 @media screen and (max-width: 768px) {
     .titleBox {
-        width: 80vw; /* Increase width for smaller screens */
-        height: auto; /* Adjust height to fit content */
+        width: 80%; /* Increase width for smaller screens */
+        height: 65%; /* Adjust height to fit content */
         margin-top: 5%;
         margin-bottom: 5%;
         padding: 30px;
@@ -282,10 +282,10 @@ footer {
     }
 
     .name {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
     }
 
     p {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 }
