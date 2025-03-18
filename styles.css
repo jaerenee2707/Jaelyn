@@ -71,6 +71,10 @@ body {
         transition: ease 0.3s;
     }
 
+    .titleBox p {
+        text-align: center;
+    }
+
 #front-content, #back-content {
     display: flex;
     flex: 1 0 auto;
@@ -277,9 +281,13 @@ footer {
         width: 60%;
     }
 
-    .icon-btn img {
-        width: 55px;
+    .icon-btn {
+        margin: 10px;
     }
+
+        .icon-btn img {
+            width: 45px;
+        }
 
     .name {
         font-size: 1.75rem;
@@ -288,4 +296,10 @@ footer {
     p {
         font-size: 1.5rem;
     }
-}
+    .btn {
+        padding: 2px 5px;
+    }
+    footer p {
+        font-size: 0.8rem;
+    }
+    }
